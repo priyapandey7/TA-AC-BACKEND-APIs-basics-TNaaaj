@@ -23,3 +23,10 @@ Above application should have 2 versions of APIs exposed.
 
 1. Endpoints for books
 2. Endpoints for books as well as comments
+
+<!-- router.get("/api/users", (req, res, next) => {
+  Model.find({}, (err, users) => {
+    if (err) return res.status(500).json(err);
+    res.json({ users });
+  });
+}); -->
